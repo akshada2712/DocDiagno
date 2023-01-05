@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="icon" href="static/images/DocDiagno.png">
+        <title>Heart Disease Prediction</title>
+
+        <!-- bootstrap cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css">
+
+        <!-- font awesome cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel = "stylesheet" href = "static/css/style4.css">
+    </head>
+    <body>
+
+        <!-- header section starts -->
+
+        <header>
+            <div class="container">
+                <a href="#" class="logo"><span>D</span>oc<span>D</span>iagno.</a>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="{{ url_for('index')}}">home</a></li>
+                        <li><a href="{{ url_for('heart')}}">heart</a></li>
+                        <li><a href="{{ url_for('diabetes')}}">diabetes</a></li>
+                        <li><a href="{{ url_for('healthtips')}}">health tips</a></li>
+                    </ul>
+                </nav>
+                <div class="fas fa-bars"></div>
+            </div>
+        </header>
+
+        <div class="section"></div>
+        <div class="content">
+                <h1>Know your chances of getting diabetes!</h1>
+                <div class="content1">
+                    <form action="{{ url_for('diabetespred')}}" class="content2" method="post">
+
+                            <label for="Pregnancies">No. of Pregnancies</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:300px; " type="number" step="any" min="0" id="Pregnancies" name="Pregnancies" required="required" placeholder="Enter number of Pregnancies" autocomplete="off"><br><br>
+
+                            <label for="Glucose">What is your Glucose level?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:250px; " type="number" step="any" id="Glucose" min="0" name="Glucose" required="required" placeholder="Enter Glucose level" autocomplete="off"><br><br>
+
+                            <label for="BloodPressure">What is your current Blood Pressure?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:300px; " type="number" step="any" id="BloodPressure" min="0" name="BloodPressure" required="required" placeholder="Enter Current Blood Pressure" autocomplete="off"><br><br>
+
+                            <label for="Skinthickness">What is your Skin Thickness?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:250px; " type="number" id="Skinthickness" name = "Skinthickness" min="0" required="required" placeholder="Enter Skin Thickness" autocomplete="off"><br><br>
+
+                            <label for="Insulin">What is your Insulin level?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " type="number" step="any" id="Insulin" name = "Insulin" min="0" required="required" placeholder="Enter Insulin level" autocomplete="off"><br><br>
+
+                            <label for="BMI">What is your Body Mass Index?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " type="number" step="any" id="BMI" name = "BMI" min="0" required="required" placeholder="Enter BMI" autocomplete="off"><br><br>
+
+                            <label for="DiabetesPedigreeFunction">What is your Diabetes Pedigree Function?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:350px; " type="number" step="any" id="DiabetesPedigreeFunction" name = "DiabetesPedigreeFunction" min="0" required="required" placeholder="Enter Diabetes Pedigree Function" autocomplete="off"><br><br>
+
+                            <label for="Age">What is your Age?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " type="number" id="Age" name = "Age" min="0" required="required" placeholder="Enter Age" autocomplete="off"><br><br>
+
+                          <button type="submit" class="button">Predict</button>
+                    </form>
+                </div>
+        </div>
+
+
+        <!-- header section ends -->
+
+        <!-- jguery cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- custom js link -->
+        <script src="static/scripts/main.js"></script>
+    </body>
+
+</html>

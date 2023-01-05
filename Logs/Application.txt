@@ -1,0 +1,544 @@
+2022-02-20/16:24:28		Application started
+2022-02-20/16:24:28		Data loaded successfully
+2022-02-20/16:24:28		Entered the datapreprocessing
+2022-02-20/16:24:28		Features and labels seperated
+2022-02-20/16:24:28		Entered checking null values count
+2022-02-20/16:24:28		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-20/16:24:28		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-20/16:24:28		Data Balanced
+2022-02-20/16:24:28		Training model for combined dataset
+2022-02-20/16:24:28		Data split into train and test
+2022-02-20/16:24:28		Logistic Regression model added
+2022-02-20/16:24:28		Decision tree model added
+2022-02-20/16:24:28		Random Forest Classifier model added
+2022-02-20/16:24:28		Gaussian NB model added
+2022-02-20/16:24:28		XGBoost model added
+2022-02-20/16:24:28		Fitting the training data
+2022-02-20/16:24:35		Custom Model created
+2022-02-20/16:24:35		Model saved in form of pickle
+2022-02-20/16:24:35		Evaluation metrics of the model :
+2022-02-20/16:24:35		Accuracy achived : 0.9682539682539683
+2022-02-20/16:24:35		Confusion matrix :
+[[122   4]
+ [  4 122]]
+2022-02-20/16:24:35		True positive :
+122
+2022-02-20/16:24:35		False negative :
+4
+2022-02-20/16:24:35		False positive :
+4
+2022-02-20/16:24:35		True negative :
+122
+2022-02-20/16:24:35		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.97      0.97      0.97       126
+           0       0.97      0.97      0.97       126
+
+    accuracy                           0.97       252
+   macro avg       0.97      0.97      0.97       252
+weighted avg       0.97      0.97      0.97       252
+
+2022-02-20/16:24:35		Model is loaded for predictions
+2022-02-20/16:24:35		Predicted output[0]
+2022-02-20/16:24:35		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-20/16:25:58		Application started
+2022-02-20/16:25:58		Data loaded successfully
+2022-02-20/16:25:58		Feature dropped
+2022-02-20/16:25:58		Entered the datapreprocessing
+2022-02-20/16:25:58		Features and labels seperated
+2022-02-20/16:25:58		Entered checking null values count
+2022-02-20/16:25:58		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-20/16:25:58		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-20/16:25:58		Null value replaced with mode
+2022-02-20/16:25:58		Entered the impute_missing_values method of the Preprocessor class
+2022-02-20/16:25:58		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-20/16:25:58		Data Balanced
+2022-02-20/16:25:58		Training model for framingham dataset
+2022-02-20/16:25:58		Data split into train and test
+2022-02-20/16:25:58		Decision tree model added
+2022-02-20/16:25:58		Random Forest Classifier model added
+2022-02-20/16:25:58		XGBoost model added
+2022-02-20/16:25:58		Fitting the training data
+2022-02-20/16:26:05		Custom Model created
+2022-02-20/16:26:05		Model saved in form of pickle
+2022-02-20/16:26:05		Evaluation metrics of the model :
+2022-02-20/16:26:05		Accuracy achived : 0.9541348158443363
+2022-02-20/16:26:06		Confusion matrix :
+[[717   2]
+ [ 64 656]]
+2022-02-20/16:26:06		True positive :
+717
+2022-02-20/16:26:06		False negative :
+2
+2022-02-20/16:26:06		False positive :
+64
+2022-02-20/16:26:06		True negative :
+656
+2022-02-20/16:26:06		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.92      1.00      0.96       719
+           0       1.00      0.91      0.95       720
+
+    accuracy                           0.95      1439
+   macro avg       0.96      0.95      0.95      1439
+weighted avg       0.96      0.95      0.95      1439
+
+2022-02-20/16:26:06		Model is loaded for predictions
+2022-02-20/16:26:06		Predicted output[0]
+2022-02-20/16:26:06		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-20/16:33:27		Application started
+2022-02-20/16:33:27		Data loaded successfully
+2022-02-20/16:33:27		Feature dropped
+2022-02-20/16:33:27		Entered the datapreprocessing
+2022-02-20/16:33:27		Features and labels seperated
+2022-02-20/16:33:27		Entered checking null values count
+2022-02-20/16:33:27		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-20/16:33:27		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-20/16:33:27		Null value replaced with mode
+2022-02-20/16:33:27		Entered the impute_missing_values method of the Preprocessor class
+2022-02-20/16:33:27		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-20/16:33:27		Data Balanced
+2022-02-20/16:33:27		Training model for framingham dataset
+2022-02-20/16:33:27		Data split into train and test
+2022-02-20/16:33:27		Decision tree model added
+2022-02-20/16:33:27		Random Forest Classifier model added
+2022-02-20/16:33:27		XGBoost model added
+2022-02-20/16:33:27		Fitting the training data
+2022-02-20/16:33:35		Custom Model created
+2022-02-20/16:33:35		Model saved in form of pickle
+2022-02-20/16:33:35		Evaluation metrics of the model :
+2022-02-20/16:33:35		Accuracy achived : 0.9527449617790132
+2022-02-20/16:33:35		Confusion matrix :
+[[714   5]
+ [ 63 657]]
+2022-02-20/16:33:35		True positive :
+714
+2022-02-20/16:33:35		False negative :
+5
+2022-02-20/16:33:35		False positive :
+63
+2022-02-20/16:33:35		True negative :
+657
+2022-02-20/16:33:35		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.92      0.99      0.95       719
+           0       0.99      0.91      0.95       720
+
+    accuracy                           0.95      1439
+   macro avg       0.96      0.95      0.95      1439
+weighted avg       0.96      0.95      0.95      1439
+
+2022-02-20/16:33:35		Model is loaded for predictions
+2022-02-20/16:33:35		Predicted output[0]
+2022-02-20/16:33:35		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-21/13:48:08		Application started
+2022-02-21/13:48:08		Data loaded successfully
+2022-02-21/13:48:08		Entered the datapreprocessing
+2022-02-21/13:48:09		Features and labels seperated
+2022-02-21/13:48:09		Entered checking null values count
+2022-02-21/13:48:09		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/13:48:09		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/13:48:09		Data Balanced
+2022-02-21/13:48:09		Training model for combined dataset
+2022-02-21/13:48:09		Data split into train and test
+2022-02-21/13:48:09		Logistic Regression model added
+2022-02-21/13:48:09		Decision tree model added
+2022-02-21/13:48:09		Random Forest Classifier model added
+2022-02-21/13:48:09		Gaussian NB model added
+2022-02-21/13:48:09		XGBoost model added
+2022-02-21/13:48:09		Fitting the training data
+2022-02-21/13:48:16		Custom Model created
+2022-02-21/13:48:16		Model saved in form of pickle
+2022-02-21/13:48:16		Evaluation metrics of the model :
+2022-02-21/13:48:16		Accuracy achived : 0.9642857142857143
+2022-02-21/13:48:16		Confusion matrix :
+[[121   5]
+ [  4 122]]
+2022-02-21/13:48:16		True positive :
+121
+2022-02-21/13:48:16		False negative :
+5
+2022-02-21/13:48:16		False positive :
+4
+2022-02-21/13:48:16		True negative :
+122
+2022-02-21/13:48:16		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.97      0.96      0.96       126
+           0       0.96      0.97      0.96       126
+
+    accuracy                           0.96       252
+   macro avg       0.96      0.96      0.96       252
+weighted avg       0.96      0.96      0.96       252
+
+2022-02-21/13:48:16		Model is loaded for predictions
+2022-02-21/13:48:16		Predicted output[0]
+2022-02-21/13:48:16		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-21/13:49:44		Application started
+2022-02-21/13:49:47		Data loaded successfully
+2022-02-21/13:49:47		Feature dropped
+2022-02-21/13:49:47		Entered the datapreprocessing
+2022-02-21/13:49:47		Features and labels seperated
+2022-02-21/13:49:47		Entered checking null values count
+2022-02-21/13:49:47		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/13:49:47		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/13:49:47		Null value replaced with mode
+2022-02-21/13:49:47		Entered the impute_missing_values method of the Preprocessor class
+2022-02-21/13:49:47		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-21/13:49:47		Data Balanced
+2022-02-21/13:49:47		Training model for framingham dataset
+2022-02-21/13:49:47		Data split into train and test
+2022-02-21/13:49:47		Decision tree model added
+2022-02-21/13:49:47		Random Forest Classifier model added
+2022-02-21/13:49:47		XGBoost model added
+2022-02-21/13:49:47		Fitting the training data
+2022-02-21/13:49:55		Custom Model created
+2022-02-21/13:49:55		Model saved in form of pickle
+2022-02-21/13:49:55		Evaluation metrics of the model :
+2022-02-21/13:49:55		Accuracy achived : 0.9527449617790132
+2022-02-21/13:49:55		Confusion matrix :
+[[714   5]
+ [ 63 657]]
+2022-02-21/13:49:55		True positive :
+714
+2022-02-21/13:49:55		False negative :
+5
+2022-02-21/13:49:55		False positive :
+63
+2022-02-21/13:49:55		True negative :
+657
+2022-02-21/13:49:55		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.92      0.99      0.95       719
+           0       0.99      0.91      0.95       720
+
+    accuracy                           0.95      1439
+   macro avg       0.96      0.95      0.95      1439
+weighted avg       0.96      0.95      0.95      1439
+
+2022-02-21/13:49:55		Model is loaded for predictions
+2022-02-21/13:49:55		Predicted output[0]
+2022-02-21/13:49:55		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-21/13:50:23		Application started
+2022-02-21/13:50:26		Data loaded successfully
+2022-02-21/13:50:26		Entered the datapreprocessing
+2022-02-21/13:50:26		Features and labels seperated
+2022-02-21/13:50:26		Entered checking null values count
+2022-02-21/13:50:26		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/13:50:26		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/13:50:26		Data Balanced
+2022-02-21/13:50:26		Training model for combined dataset
+2022-02-21/13:50:26		Data split into train and test
+2022-02-21/13:50:26		Logistic Regression model added
+2022-02-21/13:50:26		Decision tree model added
+2022-02-21/13:50:26		Random Forest Classifier model added
+2022-02-21/13:50:26		Gaussian NB model added
+2022-02-21/13:50:26		XGBoost model added
+2022-02-21/13:50:26		Fitting the training data
+2022-02-21/13:50:32		Custom Model created
+2022-02-21/13:50:32		Model saved in form of pickle
+2022-02-21/13:50:32		Evaluation metrics of the model :
+2022-02-21/13:50:32		Accuracy achived : 0.9642857142857143
+2022-02-21/13:50:32		Confusion matrix :
+[[121   5]
+ [  4 122]]
+2022-02-21/13:50:32		True positive :
+121
+2022-02-21/13:50:32		False negative :
+5
+2022-02-21/13:50:32		False positive :
+4
+2022-02-21/13:50:32		True negative :
+122
+2022-02-21/13:50:32		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.97      0.96      0.96       126
+           0       0.96      0.97      0.96       126
+
+    accuracy                           0.96       252
+   macro avg       0.96      0.96      0.96       252
+weighted avg       0.96      0.96      0.96       252
+
+2022-02-21/13:50:32		Model is loaded for predictions
+2022-02-21/13:50:32		Predicted output[0]
+2022-02-21/13:50:32		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-21/14:06:10		Application started
+2022-02-21/14:06:12		Data loaded successfully
+2022-02-21/14:06:12		Entered the datapreprocessing
+2022-02-21/14:06:12		Features and labels seperated
+2022-02-21/14:06:12		Entered checking null values count
+2022-02-21/14:06:12		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:06:12		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:06:12		Data Balanced
+2022-02-21/14:06:12		Training model for combined dataset
+2022-02-21/14:06:12		Data split into train and test
+2022-02-21/14:06:12		Logistic Regression model added
+2022-02-21/14:06:12		Decision tree model added
+2022-02-21/14:06:12		Random Forest Classifier model added
+2022-02-21/14:06:12		Gaussian NB model added
+2022-02-21/14:06:12		XGBoost model added
+2022-02-21/14:06:12		Fitting the training data
+2022-02-21/14:06:18		Custom Model created
+2022-02-21/14:06:18		Model saved in form of pickle
+2022-02-21/14:06:18		Evaluation metrics of the model :
+2022-02-21/14:06:18		Accuracy achived : 0.9603174603174603
+2022-02-21/14:06:18		Confusion matrix :
+[[120   6]
+ [  4 122]]
+2022-02-21/14:06:18		True positive :
+120
+2022-02-21/14:06:18		False negative :
+6
+2022-02-21/14:06:18		False positive :
+4
+2022-02-21/14:06:18		True negative :
+122
+2022-02-21/14:06:18		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.97      0.95      0.96       126
+           0       0.95      0.97      0.96       126
+
+    accuracy                           0.96       252
+   macro avg       0.96      0.96      0.96       252
+weighted avg       0.96      0.96      0.96       252
+
+2022-02-21/14:07:04		Model is loaded for predictions
+2022-02-21/14:07:04		Predicted output[0]
+2022-02-21/14:07:04		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-21/14:11:01		Application started
+2022-02-21/14:11:03		Data loaded successfully
+2022-02-21/14:11:03		Feature dropped
+2022-02-21/14:11:03		Entered the datapreprocessing
+2022-02-21/14:11:03		Features and labels seperated
+2022-02-21/14:11:03		Entered checking null values count
+2022-02-21/14:11:03		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:11:04		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:11:04		Null value replaced with mode
+2022-02-21/14:11:04		Entered the impute_missing_values method of the Preprocessor class
+2022-02-21/14:11:04		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-21/14:11:04		Data Balanced
+2022-02-21/14:11:04		Training model for framingham dataset
+2022-02-21/14:11:04		Data split into train and test
+2022-02-21/14:11:04		Decision tree model added
+2022-02-21/14:11:04		Random Forest Classifier model added
+2022-02-21/14:11:04		XGBoost model added
+2022-02-21/14:11:04		Fitting the training data
+2022-02-21/14:11:11		Custom Model created
+2022-02-21/14:11:11		Model saved in form of pickle
+2022-02-21/14:11:11		Evaluation metrics of the model :
+2022-02-21/14:11:11		Accuracy achived : 0.9541348158443363
+2022-02-21/14:11:11		Confusion matrix :
+[[714   5]
+ [ 61 659]]
+2022-02-21/14:11:11		True positive :
+714
+2022-02-21/14:11:11		False negative :
+5
+2022-02-21/14:11:11		False positive :
+61
+2022-02-21/14:11:11		True negative :
+659
+2022-02-21/14:11:11		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.92      0.99      0.96       719
+           0       0.99      0.92      0.95       720
+
+    accuracy                           0.95      1439
+   macro avg       0.96      0.95      0.95      1439
+weighted avg       0.96      0.95      0.95      1439
+
+2022-02-21/14:11:11		Model is loaded for predictions
+2022-02-21/14:11:11		Predicted output[0]
+2022-02-21/14:11:11		Congratulations, you are not affected with heart disease. Have a good diet.!!
+2022-02-21/14:24:19		Application started
+2022-02-21/14:24:24		Data loaded successfully
+2022-02-21/14:24:24		Feature dropped
+2022-02-21/14:24:24		Entered the datapreprocessing
+2022-02-21/14:24:24		Features and labels seperated
+2022-02-21/14:24:24		Entered checking null values count
+2022-02-21/14:24:24		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:24:24		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:24:24		Null value replaced with mode
+2022-02-21/14:24:24		Entered the impute_missing_values method of the Preprocessor class
+2022-02-21/14:24:24		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-21/14:24:24		Data Balanced
+2022-02-21/14:24:24		Training model for framingham dataset
+2022-02-21/14:24:24		Data split into train and test
+2022-02-21/14:24:24		Decision tree model added
+2022-02-21/14:24:24		Random Forest Classifier model added
+2022-02-21/14:24:24		XGBoost model added
+2022-02-21/14:24:24		Fitting the training data
+2022-02-21/14:24:32		Custom Model created
+2022-02-21/14:24:32		Model saved in form of pickle
+2022-02-21/14:24:32		Evaluation metrics of the model :
+2022-02-21/14:24:32		Accuracy achived : 0.954829742876998
+2022-02-21/14:24:32		Confusion matrix :
+[[714   5]
+ [ 60 660]]
+2022-02-21/14:24:32		True positive :
+714
+2022-02-21/14:24:32		False negative :
+5
+2022-02-21/14:24:32		False positive :
+60
+2022-02-21/14:24:32		True negative :
+660
+2022-02-21/14:24:32		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.92      0.99      0.96       719
+           0       0.99      0.92      0.95       720
+
+    accuracy                           0.95      1439
+   macro avg       0.96      0.95      0.95      1439
+weighted avg       0.96      0.95      0.95      1439
+
+2022-02-21/14:25:24		Model is loaded for predictions
+2022-02-21/14:25:24		Exception occuredname 'bp_meds' is not defined
+2022-02-21/14:25:24		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-02-21/14:26:10		Application started
+2022-02-21/14:26:19		Data loaded successfully
+2022-02-21/14:26:19		Feature dropped
+2022-02-21/14:26:19		Entered the datapreprocessing
+2022-02-21/14:26:19		Features and labels seperated
+2022-02-21/14:26:19		Entered checking null values count
+2022-02-21/14:26:19		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:26:19		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:26:19		Null value replaced with mode
+2022-02-21/14:26:19		Entered the impute_missing_values method of the Preprocessor class
+2022-02-21/14:26:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-21/14:26:19		Data Balanced
+2022-02-21/14:26:19		Training model for framingham dataset
+2022-02-21/14:26:19		Data split into train and test
+2022-02-21/14:26:19		Decision tree model added
+2022-02-21/14:26:19		Random Forest Classifier model added
+2022-02-21/14:26:19		XGBoost model added
+2022-02-21/14:26:19		Fitting the training data
+2022-02-21/14:26:26		Custom Model created
+2022-02-21/14:26:26		Model saved in form of pickle
+2022-02-21/14:26:26		Evaluation metrics of the model :
+2022-02-21/14:26:26		Accuracy achived : 0.9576094510076442
+2022-02-21/14:26:26		Confusion matrix :
+[[717   2]
+ [ 59 661]]
+2022-02-21/14:26:27		True positive :
+717
+2022-02-21/14:26:27		False negative :
+2
+2022-02-21/14:26:27		False positive :
+59
+2022-02-21/14:26:27		True negative :
+661
+2022-02-21/14:26:27		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.92      1.00      0.96       719
+           0       1.00      0.92      0.96       720
+
+    accuracy                           0.96      1439
+   macro avg       0.96      0.96      0.96      1439
+weighted avg       0.96      0.96      0.96      1439
+
+2022-02-21/14:27:09		Model is loaded for predictions
+2022-02-21/14:27:09		Exception occuredcould not convert string to float: 'y'
+2022-02-21/14:27:09		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-02-21/14:29:16		Application started
+2022-02-21/14:29:19		Data loaded successfully
+2022-02-21/14:29:19		Feature dropped
+2022-02-21/14:29:19		Entered the datapreprocessing
+2022-02-21/14:29:19		Features and labels seperated
+2022-02-21/14:29:19		Entered checking null values count
+2022-02-21/14:29:19		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:29:19		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:29:19		Null value replaced with mode
+2022-02-21/14:29:19		Entered the impute_missing_values method of the Preprocessor class
+2022-02-21/14:29:19		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-21/14:29:19		Data Balanced
+2022-02-21/14:29:19		Training model for framingham dataset
+2022-02-21/14:29:19		Data split into train and test
+2022-02-21/14:29:19		Decision tree model added
+2022-02-21/14:29:19		Random Forest Classifier model added
+2022-02-21/14:29:19		XGBoost model added
+2022-02-21/14:29:19		Fitting the training data
+2022-02-21/14:29:26		Custom Model created
+2022-02-21/14:29:26		Model saved in form of pickle
+2022-02-21/14:29:26		Evaluation metrics of the model :
+2022-02-21/14:29:26		Accuracy achived : 0.9499652536483669
+2022-02-21/14:29:26		Confusion matrix :
+[[714   5]
+ [ 67 653]]
+2022-02-21/14:29:26		True positive :
+714
+2022-02-21/14:29:26		False negative :
+5
+2022-02-21/14:29:26		False positive :
+67
+2022-02-21/14:29:26		True negative :
+653
+2022-02-21/14:29:26		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.91      0.99      0.95       719
+           0       0.99      0.91      0.95       720
+
+    accuracy                           0.95      1439
+   macro avg       0.95      0.95      0.95      1439
+weighted avg       0.95      0.95      0.95      1439
+
+2022-02-21/14:29:56		Model is loaded for predictions
+2022-02-21/14:29:56		Exception occuredname 'bp_meds' is not defined
+2022-02-21/14:29:56		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-02-21/14:37:17		Application started
+2022-02-21/14:37:22		Data loaded successfully
+2022-02-21/14:37:22		Feature dropped
+2022-02-21/14:37:22		Entered the datapreprocessing
+2022-02-21/14:37:22		Features and labels seperated
+2022-02-21/14:37:22		Entered checking null values count
+2022-02-21/14:37:22		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:37:22		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-02-21/14:37:22		Null value replaced with mode
+2022-02-21/14:37:22		Entered the impute_missing_values method of the Preprocessor class
+2022-02-21/14:37:22		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-02-21/14:37:22		Data Balanced
+2022-02-21/14:37:22		Training model for framingham dataset
+2022-02-21/14:37:22		Data split into train and test
+2022-02-21/14:37:22		Decision tree model added
+2022-02-21/14:37:22		Random Forest Classifier model added
+2022-02-21/14:37:22		XGBoost model added
+2022-02-21/14:37:22		Fitting the training data
+2022-02-21/14:37:29		Custom Model created
+2022-02-21/14:37:29		Model saved in form of pickle
+2022-02-21/14:37:29		Evaluation metrics of the model :
+2022-02-21/14:37:29		Accuracy achived : 0.9534398888116747
+2022-02-21/14:37:30		Confusion matrix :
+[[714   5]
+ [ 62 658]]
+2022-02-21/14:37:30		True positive :
+714
+2022-02-21/14:37:30		False negative :
+5
+2022-02-21/14:37:30		False positive :
+62
+2022-02-21/14:37:30		True negative :
+658
+2022-02-21/14:37:30		Classification report :
+              precision    recall  f1-score   support
+
+           1       0.92      0.99      0.96       719
+           0       0.99      0.91      0.95       720
+
+    accuracy                           0.95      1439
+   macro avg       0.96      0.95      0.95      1439
+weighted avg       0.96      0.95      0.95      1439
+
+2022-02-21/14:38:03		Model is loaded for predictions
+2022-02-21/14:38:03		Predicted output[0]
+2022-02-21/14:38:03		Congratulations, you are not affected with heart disease. Have a good diet.!!

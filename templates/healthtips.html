@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="static/images/DocDiagno.png">
+<!-- Bootstrap CSS -->
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="icon" href="static/images/DocDiagno.png">
+        <title>Heart Disease Prediction</title>
+
+        <!-- bootstrap cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css">
+
+        <!-- font awesome cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel = "stylesheet" href = "static/css/style2.css">
+
+<title>Smart Health Tips</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+
+<header>
+            <div class="container">
+                <a href="#" class="logo"><span>D</span>oc<span>D</span>iagno.</a>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="{{ url_for('index')}}">home</a></li>
+                        <li><a href="{{ url_for('heart')}}">heart</a></li>
+                        <li><a href="{{ url_for('diabetes')}}">diabetes</a></li>
+                        <li><a href="{{ url_for('healthtips')}}">health tips</a></li>
+                    </ul>
+                </nav>
+                <div class="fas fa-bars"></div>
+            </div>
+        </header>
+
+
+<!-- <div>
+<img src="DocDiagno.png" height="160pt" style="margin-left: 1000pt"/>
+</div> -->
+<div>
+  <img src="static/images/h2.jpg" style="margin-left: 200pt; margin-top: 100pt; margin-right: 70pt; height: 200pt; width: 600pt;"/>
+  </div>
+<div class="w3-main" style="margin-left:250px;" ></div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal"><b>Cardiovascular Diseases</b></h1>
+      <p>Cardiovascular diseases are considered to be the most deadly syndrome. Over time, they have become very common
+          and now very widespread. The busy running schedule of the modern era leads to an unhealthy lifestyle which causes
+          different health issues like depression. Factors like family history, blood pressure, age, smoking, unhealthy diet intake,
+          lack of exercises etc are the factors responsible for cardiovascular diseases. </p>
+    </div>
+
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal"><b>Heart Disease</b></h1>
+      <p>Heart disease refers to any condition affecting the heart. There are many types, some of which are preventable.There are several different types of heart disease,
+          and they affect the heart and blood vessels in different ways.</p>
+
+          <img src="static/images/heartlogo1.jpeg" style="margin-left: 1pt;">
+          <h2 class="w3-text-teal"  style="margin-left:340px">Symptoms</h2>
+          <p style="margin-left:340px">The symptoms of heart disease depend on the specific type a person has. Also, some heart conditions cause no symptoms at all.</p>
+          <p style="margin-left:340px">That said, the following symptoms may indicate a heart problem:</p>
+          <ul style="margin-left:340px">
+              <li>difficulty breathing</li>
+              <li>chest pain(angina)</li>
+              <li>fatigue and lightheadedness</li>
+              <li>swelling due to fluid retention, or edema</li>
+              <li>breathlessness</li>
+              <li>arm, jaw, back, or leg pain</li>
+              <li>an irregular heartbeat</li>
+          </ul>
+
+          <h2 class="w3-text-teal " style="margin-left:340px">Causes and Risk factors</h2>
+          <p style="margin-left:340px">Heart disease develops when there is:</p>
+          <ul style="margin-left:340px">
+              <li>damage to all or part of the heart</li>
+              <li>a problem with the blood vessels leading to or from the heart</li>
+              <li>a low supply of oxygen and nutrients to the heart</li>
+              <li>overweight and obesity</li>
+              <li>a family history of heart disease</li>
+              <li>smoking</li>
+              <li>high stress and anxiety levels</li>
+              <li>low activity levels</li>
+          </ul>
+
+          <h2 class="w3-text-teal" style="margin-left:340px">Prevention</h2>
+          <p style="margin-left:340px">Some lifestyle measures can help reduce the risk of heart disease. These include:</p>
+          <ul style="margin-left:340px">
+              <li>Eating a balanced diet</li>
+              <li>Exercising regularly</li>
+              <li>Maintaining a moderate body weight</li>
+              <li>Quitting or avoiding smoking</li>
+              <li>Limiting alcohol intake</li>
+              <li>Managing underlying conditions eg. BP</li>
+
+          </ul>
+    </div>
+
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal"><b>Diabetes</b></h1>
+      <p>Diabetes is a condition that impairs the body's ability to process blood glucose,
+          otherwise known as blood sugar. There are several types of diabetes, which have various treatments.</p>
+
+
+          <img src="static/images/d1.jpg" style="margin-left: 1pt;height: 150pt; width: 250pt;">
+          <h2 class="w3-text-teal" style="margin-left:180px">Type 1 diabetes</h2>
+          <p style="margin-left:180px">Also known as juvenile diabetes, type 1 diabetes occurs when the body does not produce insulin.
+            Insulin is a hormone responsible for breaking down the sugar in the blood for use throughout the body.
+            A person living with type 1 diabetes receive a diagnosis during childhood.
+            People living with type 1 diabetes need to administer insulin on a regular basis.
+            Individuals may do this with injections or an insulin pump.</p>
+          <h2 class="w3-text-teal" style="margin-left:180px">Type 2 diabetes</h2>
+          <p style="margin-left:180px">People with type 2 diabetes do not make or use insulin effectively.this is the most common type of diabetes,
+               and it has strong links with obesity.Medication along with changes in exercise and diet can help manage the condition.</p>
+          <h2 class="w3-text-teal"style="margin-left:180px">Prediabetes</h2>
+          <p style="margin-left:180px">Prediabetes, or borderline diabetes, occurs when a person’s blood sugar levels are elevated but not enough for a
+              diagnosis of diabetes. For a doctor to diagnose prediabetes, an individual must meet the following
+             criteria:
+            <ol style="margin-left:200px">
+                <li>glucose tolerance levels of 140–199 milligrams per deciliter (mg/dl)</li>
+                <li>an A1C test result of 5.7–6.4%</li>
+                <li>fasting blood sugar levels between 100–125 mg/dl</li>
+            </ol></p>
+
+
+
+          <h2 class="w3-text-teal" style="margin-left:340px">Symptoms</h2>
+          <p style="margin-left:340px">The following symptoms may indicate Diabetes:</p>
+          <ul style="margin-left:340px">
+              <li>Hunger and fatigue</li>
+              <li>Peeing more often and being thirstier</li>
+              <li>Dry mouth and itchy skin</li>
+              <li>Unplanned weight loss</li>
+              <li>Blurred vision</li>
+          </ul>
+
+          <h2 class="w3-text-teal" style="margin-left:340px">Causes and Risk factors</h2>
+          <p style="margin-left:340px">Risk factors includes:</p>
+          <ul style="margin-left:340px">
+              <li>eye problems and sight losst</li>
+              <li>heart disease</li>
+              <li>nerve damage, such as diabetic neuropathy</li>
+              <li>kidney disease</li>
+              <li>a family history of heart disease</li>
+
+          </ul>
+
+          <h2 class="w3-text-teal" style="margin-left:340px">Prevention</h2>
+          <p style="margin-left:340px">Some ways to help prevent type 2 diabetes include:</p>
+          <ul style="margin-left:340px">
+              <li>maintaining a moderate weight</li>
+              <li>exercising regularly</li>
+              <li>Managing underlying conditions eg. BP</li>
+              <li>eating a balanced diet low in added sugars, saturated fats, and processed foods</li>
+          </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>

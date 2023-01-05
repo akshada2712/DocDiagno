@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="icon" href="static/images/DocDiagno.png">
+        <title>Heart Disease Prediction</title>
+
+        <!-- bootstrap cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css">
+
+        <!-- font awesome cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel = "stylesheet" href = "static/css/style1.css">
+    </head>
+    <body>
+
+        <!-- header section starts -->
+
+        <header>
+            <div class="container">
+                <a href="#" class="logo"><span>D</span>oc<span>D</span>iagno.</a>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="{{ url_for('index')}}">home</a></li>
+                        <li><a href="{{ url_for('heart')}}">heart</a></li>
+                        <li><a href="{{ url_for('diabetes')}}">diabetes</a></li>
+                        <li><a href="{{ url_for('healthtips')}}">health tips</a></li>
+                    </ul>
+                </nav>
+                <div class="fas fa-bars"></div>
+            </div>
+        </header>
+
+        <div class="section"></div>
+        <div class="content">
+                <h1>Know your chances of getting a heart disease!</h1>
+                <div class="content1">
+                    <form action="{{ url_for('heart')}}" method="post">
+                      <p>Befor moving ahead, Do you have diabetes?</p>
+                      <a href="{{ url_for('heartfram')}}" class="GFG">YES</a>
+                      <a href="{{ url_for('heartcombined')}}" class="GFG">NO</a>
+                    </form>
+                </div>
+        </div>
+
+
+        <!-- header section ends -->
+
+        <!-- jguery cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- custom js link -->
+        <script src="static/scripts/main.js"></script>
+    </body>
+
+</html>

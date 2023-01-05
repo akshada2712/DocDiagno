@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="icon" href="static/images/DocDiagno.png">
+        <title>Heart Disease Prediction</title>
+
+        <!-- bootstrap cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css">
+
+        <!-- font awesome cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel = "stylesheet" href = "static/css/style2.css">
+    </head>
+    <body>
+
+        <!-- header section starts -->
+
+        <header>
+            <div class="container">
+                <a href="#" class="logo"><span>D</span>oc<span>D</span>iagno.</a>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="{{ url_for('index')}}">home</a></li>
+                        <li><a href="{{ url_for('heart')}}">heart</a></li>
+                        <li><a href="{{ url_for('diabetes')}}">diabetes</a></li>
+                        <li><a href="{{ url_for('healthtips')}}">health tips</a></li>
+                    </ul>
+                </nav>
+                <div class="fas fa-bars"></div>
+            </div>
+        </header>
+
+        <div class="section"></div>
+        <div class="content">
+                <h1>Know your chances of getting a heart disease!</h1>
+                <div class="content1">
+                    <form action="{{ url_for('heartcombined')}}" class="content2" method="post">
+
+                            <label for="age">What is your age?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " type="number" step="any" min="0" id="age" name="age" required="required" placeholder="Enter your age" autocomplete="off"><br><br>
+
+
+                            <label for="sex">Whats your gender?</label>
+                              <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="sex" name = "sex" required="required"  autocomplete="off">
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                              </select><br><br>
+
+                            <label for="cpt">What is chest pain type?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="cpt" name = "cpt" required="required" placeholder="Chest Pain Type" autocomplete="off">
+                              <option value="0">Typical Angina</option>
+                              <option value="1">Atypical Angina</option>
+                              <option value="2">Non-Anginal Pain</option>
+                              <option value="3">Asymptomatic</option>
+                            </select><br><br>
+
+                            <label for="bp">What is your blood pressure?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:250px; " type="number" id="bp" min="0" name="bp" required="required" placeholder="Resting Blood Pressure" autocomplete="off"><br><br>
+
+                            <label for="chol">How much is your cholestrol?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " type="number" step="any" id="chol" min="0" name="chol" required="required" placeholder="Serum Cholestoral" autocomplete="off"><br><br>
+
+                            <label for="fbp">What is your fasting sugar?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:300px; " id="fbp" name = "fbp" required="required" placeholder="Fasting Blood Sugar" autocomplete="off">
+                              <option value="0">Fasting Blood Sugar < 120 mg/dl</option>
+                              <option value="1">Fasting Blood Sugar > 120 mg/dl</option>
+                            </select><br><br>
+
+                            <label for="ecg">Resting Electro-cardiographic Result(Ecg status) :</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:250px; " type="number" id="ecg" name="ecg" required="required" placeholder="Resting Electro-cardiographic Result" autocomplete="off">
+                            <option value="0">Resting Ecg</option>
+                            <option value="1">ST-T wave abnormality</option>
+                            <option value="2">Left ventricular hypertrophy</option>
+                          </select><br><br>
+
+                            <label for="mhr">Maximum Heart Rate Achieved</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:250px; " id="mhr" name = "mhr" min="0" required="required" placeholder="Maximum heart rate" autocomplete="off"><br><br>
+
+                            <label for="exe_angina">Exercise Induced Angina</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="exe_angina" name = "exe_angina" required="required" autocomplete="off" >
+                              <option value="1">Yes</option>
+                              <option value="0">No</option>
+                            </select><br><br>
+
+                            <label for="oldpeak">What is your oldpeak score?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="oldpeak" name = "oldpeak" min="0" required="required" placeholder="Oldpeak Score" autocomplete="off"><br><br>
+
+                            <label for="slope">What is the st slope of your ecg?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="slope" name = "slope" required="required" autocomplete="off">
+                              <option value="1">Upsloping</option>
+                              <option value="2">Flat</option>
+                              <option value="3">Downsloping</option>
+                            </select><br><br>
+
+                          <button type="submit" class="button">Predict</button>
+                    </form>
+                </div>
+        </div>
+
+
+        <!-- header section ends -->
+
+        <!-- jguery cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- custom js link -->
+        <script src="static/scripts/main.js"></script>
+    </body>
+
+</html>

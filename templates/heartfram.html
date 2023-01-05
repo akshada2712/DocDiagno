@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="icon" href="static/images/DocDiagno.png">
+        <title>Heart Disease Prediction</title>
+
+        <!-- bootstrap cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap-grid.min.css">
+
+        <!-- font awesome cdn link -->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <!-- custom css file link -->
+        <link rel = "stylesheet" href = "static/css/style3.css">
+    </head>
+    <body>
+
+        <!-- header section starts -->
+
+        <header>
+            <div class="container">
+                <a href="#" class="logo"><span>D</span>oc<span>D</span>iagno.</a>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="{{ url_for('index')}}">home</a></li>
+                        <li><a href="{{ url_for('heart')}}">heart</a></li>
+                        <li><a href="{{ url_for('diabetes')}}">diabetes</a></li>
+                        <li><a href="{{ url_for('healthtips')}}">health tips</a></li>
+                    </ul>
+                </nav>
+                <div class="fas fa-bars"></div>
+            </div>
+        </header>
+
+        <div class="section"></div>
+        <div class="content">
+                <h1>Know your chances of getting a heart disease!</h1>
+                <div class="content1">
+                    <form action="{{ url_for('heartfram')}}" class="content2" method="post">
+
+                            <label for="gender">What's your gender?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " type="" id="gender" name="gender" required="required" autocomplete="off">
+                                <option value="1">Male</option>
+                                <option value="0">Female</option>
+                              </select><br><br>
+
+
+                            <label for="age">What is your age?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " type="number" step="any" id="age" name="age" min="0" max="150" required="required" placeholder="Enter age?" autocomplete="off"><br><br>
+
+                            <label for="smoker">Do you smoke?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="smoker" name = "smoker" required="required" autocomplete="off">
+                              <option value="1">Yes</option>
+                              <option value="0">No</option>
+                            </select><br><br>
+
+                            <label for="cigs">How many cigarettes do you consume?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:300px; " type="number" id="cigs" min="0" name="cigs" required="required" placeholder="Enter number of cigarettes" autocomplete="off"><br><br>
+
+
+                            <label for="bp_meds">Do you take BP medicines?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="bp_meds" name = "bp_meds" required="required" autocomplete="off">
+                              <option value="1">Yes</option>
+                              <option value="0">No</option>
+                            </select><br><br>
+
+                            <label for="stroke">Do you suffer from stroke?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="stroke" name="stroke" required="required" autocomplete="off">
+                              <option value="1">Yes</option>
+                              <option value="0">No</option>
+                            </select><br><br>
+
+                            <label for="hyp">Do you suffer from hypertension?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="hyp" name="hyp" required="required" autocomplete="off">
+                              <option value="1">Yes</option>
+                              <option value="0">No</option>
+                            </select><br><br>
+
+                            <label for="dia">Whether or not the patient had diabetes?</label>
+                            <select class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="dia" name = "dia" required="required" autocomplete="off" >
+                              <option value="1">Yes</option>
+                              <option value="0">No</option>
+                            </select><br><br>
+
+                            <label for="chol">How much is your cholestrol?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="chol" name = "chol" type="number" value="126" step="any" min="0" required="required" placeholder="Enter cholestrol level" autocomplete="off"><br><br>
+
+                            <label for="sysBp">What is your systolic bp?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="sysBp" name = "sysBp" type="number" step="any" min="0" required="required" placeholder="Enter Systolic Bp" autocomplete="off"><br><br>
+
+                            <label for="diaBp">What is your diastolic bp?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="diaBp" name = "diaBp" type="number" step="any" min="0" required="required" placeholder="Enter Diastolic Bp" autocomplete="off"><br><br>
+
+                            <label for="height">What is your height?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="height" name = "height" type="number" step="any" min="0" required="required" placeholder="Enter height" autocomplete="off"><br><br>
+
+                            <label for="weight">What is your weight?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="weight" name = "weight" type="number" step="any" min="0" required="required" placeholder="Enter weight" autocomplete="off"><br><br>
+
+                            <label for="rate">What is your pulse/heart rate?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:250px; " id="rate" name = "rate" type="number" step="any" min="0" required="required" placeholder="Enter Pulse/Heart rate" autocomplete="off"><br><br>
+
+                            <label for="glu">What is your sugar level?</label>
+                            <input class="form-control" style="font-size: 15pt; height: 30px; width:200px; " id="glu" name = "glu" type="number" step="any" min="0" required="required" placeholder="Enter Sugar level" autocomplete="off"><br><br>
+
+
+                          <button type="submit" class="button">Predict</button>
+                    </form>
+                </div>
+        </div>
+
+
+        <!-- header section ends -->
+
+        <!-- jguery cdn link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- custom js link -->
+        <script src="static/scripts/main.js"></script>
+    </body>
+
+</html>

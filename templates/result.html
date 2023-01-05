@@ -1,0 +1,28 @@
+<html>
+    <style>
+        body {
+          background: url(/static/images/b1.jpg);
+          background-repeat: no-repeat;
+          margin-top: 20;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        h1{
+        margin-left: 390pt;
+        margin-top: 180pt;
+        margin-right: 30pt;
+       }
+
+        </style>
+<body>
+
+<h1><b>{{ prediction }}</b></h1>
+
+<div style="position:fixed; left:1200px; top:15px;">
+    <a href="{{ url_for('index') }}"  target="_self">Back to Homepage
+        <img src="static/images/DocDiagno.png"  height="120pt" width="120pt">
+    </a>
+</div>
+
+</body>
+</html>

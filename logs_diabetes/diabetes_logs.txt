@@ -1,0 +1,149 @@
+2022-03-10/14:51:15		Data loaded successfully
+2022-03-10/14:52:40		Data loaded successfully
+2022-03-10/14:54:07		Data loaded successfully
+2022-03-10/14:54:43		Data loaded successfully
+2022-03-10/14:55:57		Data loaded successfully
+2022-03-10/14:56:36		Data loaded successfully
+2022-03-10/14:56:36		Entered the replace_missing_values method of the Preprocessor class
+2022-03-10/14:56:36		Entered the datapreprocessing
+2022-03-10/14:56:36		Features and labels seperated
+2022-03-10/14:56:36		Labels and features seperated
+2022-03-10/14:56:36		Exception occured in balance_data method of the Preprocessor class. Exception message:  'RandomOverSampler' object has no attribute 'fit_sample'
+2022-03-10/14:56:36		Data Balancing Unsuccessful. Exited the balance_data method of the Preprocessor class
+2022-03-10/14:56:36		Exception occured in run_preprocessing method of the Preprocessor class. Exception message:  
+2022-03-10/14:56:36		Preprocessing failed.
+2022-03-16/17:17:16		Data loaded successfully
+2022-03-16/17:17:16		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/17:17:16		Entered the datapreprocessing
+2022-03-16/17:17:16		Features and labels seperated
+2022-03-16/17:17:16		Labels and features seperated
+2022-03-16/17:17:16		Exception occured in balance_data method of the Preprocessor class. Exception message:  'RandomOverSampler' object has no attribute 'fit_sample'
+2022-03-16/17:17:16		Data Balancing Unsuccessful. Exited the balance_data method of the Preprocessor class
+2022-03-16/17:17:16		Exception occured in run_preprocessing method of the Preprocessor class. Exception message:  
+2022-03-16/17:17:16		Preprocessing failed.
+2022-03-16/17:19:09		Data loaded successfully
+2022-03-16/17:19:09		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/17:19:09		Entered the datapreprocessing
+2022-03-16/17:19:09		Features and labels seperated
+2022-03-16/17:19:09		Labels and features seperated
+2022-03-16/17:19:09		Data Balanced
+2022-03-16/17:19:09		Data Balanced
+2022-03-16/18:17:03		Data loaded successfully
+2022-03-16/18:17:03		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:17:03		Data Balanced
+2022-03-16/18:18:22		Data loaded successfully
+2022-03-16/18:18:22		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:18:22		Data Balanced
+2022-03-16/18:18:51		Model is loaded for predictions
+2022-03-16/18:18:51		Exception occured'bytes' object has no attribute 'predict'
+2022-03-16/18:18:51		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-03-16/18:28:29		Data loaded successfully
+2022-03-16/18:28:29		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:28:29		Data Balanced
+2022-03-16/18:28:53		Model is loaded for predictions
+2022-03-16/18:28:53		Exception occured'bytes' object has no attribute 'predict'
+2022-03-16/18:28:53		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-03-16/18:31:42		Data loaded successfully
+2022-03-16/18:31:42		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:31:42		Data Balanced
+2022-03-16/18:32:19		Model is loaded for predictions
+2022-03-16/18:32:19		Exception occured'bytes' object has no attribute 'predict'
+2022-03-16/18:32:19		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-03-16/18:32:42		Data loaded successfully
+2022-03-16/18:32:42		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:32:42		Data Balanced
+2022-03-16/18:33:02		Model is loaded for predictions
+2022-03-16/18:33:02		Exception occured'bytes' object has no attribute 'predict'
+2022-03-16/18:33:02		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-03-16/18:35:07		Data loaded successfully
+2022-03-16/18:35:07		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:35:07		Data Balanced
+2022-03-16/18:35:29		Exception occured[Errno 2] No such file or directory: 'Diabetes/diabetes_prediction_rf.pickle'
+2022-03-16/18:35:29		Pickle file loading unsuccesfull .Exited the load_model method of the MakePredictions class
+2022-03-16/18:36:26		Data loaded successfully
+2022-03-16/18:36:26		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:36:26		Data Balanced
+2022-03-16/18:37:30		Data loaded successfully
+2022-03-16/18:37:30		Entered the replace_missing_values method of the Preprocessor class
+2022-03-16/18:37:30		Data Balanced
+2022-03-16/18:38:09		Model is loaded for predictions
+2022-03-16/18:38:09		Predicted output[0]
+2022-03-16/18:38:09		Congratulations, you are not affected with Diabetes. Have a good diet.!!
+2022-03-21/17:38:08		Data loaded successfully
+2022-03-21/17:38:08		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:38:08		Data Balanced
+2022-03-21/17:39:01		Model is loaded for predictions
+2022-03-21/17:39:01		Predicted output[0]
+2022-03-21/17:39:01		Congratulations, you are not affected with Diabetes. Have a good diet.!!
+2022-03-21/17:41:17		Data loaded successfully
+2022-03-21/17:41:17		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:41:17		Data Balanced
+2022-03-21/17:41:53		Model is loaded for predictions
+2022-03-21/17:41:53		Predicted output[0]
+2022-03-21/17:41:53		Congratulations, you are not affected with Diabetes. Have a good diet.!!
+2022-03-21/17:42:34		Data loaded successfully
+2022-03-21/17:42:34		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:42:34		Data Balanced
+2022-03-21/17:43:13		Model is loaded for predictions
+2022-03-21/17:43:13		Predicted output[0]
+2022-03-21/17:43:13		Congratulations, you are not affected with Diabetes. Have a good diet.!!
+2022-03-21/17:45:24		Data loaded successfully
+2022-03-21/17:45:24		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:45:24		Data Balanced
+2022-03-21/17:45:59		Model is loaded for predictions
+2022-03-21/17:45:59		Predicted output[0]
+2022-03-21/17:45:59		Congratulations, you are not affected with Diabetes. Have a good diet.!!
+2022-03-21/17:46:20		Data loaded successfully
+2022-03-21/17:46:20		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:46:20		Data Balanced
+2022-03-21/17:47:16		Model is loaded for predictions
+2022-03-21/17:47:16		Predicted output[0]
+2022-03-21/17:47:16		Congratulations, you are not affected with Diabetes. Have a good diet.!!
+2022-03-21/17:49:51		Data loaded successfully
+2022-03-21/17:49:51		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:49:51		Data Balanced
+2022-03-21/17:50:57		Data loaded successfully
+2022-03-21/17:50:57		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:50:57		Data Balanced
+2022-03-21/17:51:27		Model is loaded for predictions
+2022-03-21/17:51:27		Exception occuredX has 1 features, but RandomForestClassifier is expecting 8 features as input.
+2022-03-21/17:51:27		Predictions making unsuccessfull.Exited the prediction_app method of the MakePredictions class
+2022-03-21/17:52:13		Data loaded successfully
+2022-03-21/17:52:13		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:52:13		Data Balanced
+2022-03-21/17:52:40		Model is loaded for predictions
+2022-03-21/17:52:40		Predicted output[0]
+2022-03-21/17:52:40		Congratulations, you are not affected with Diabetes. Have a good diet.!!
+2022-03-21/17:58:20		Data loaded successfully
+2022-03-21/17:58:20		Entered the replace_missing_values method of the Preprocessor class
+2022-03-21/17:58:20		Data Balanced
+2022-03-21/17:58:20		Training model for diabetes dataset
+2022-03-21/17:58:20		Data split into train and test
+2022-03-21/17:58:20		Custom Model created
+2022-03-21/17:58:20		Model saved in form of pickle
+2022-03-21/17:58:20		Evaluation metrics of the model : 
+2022-03-21/17:58:20		Accuracy achived : 1.0
+2022-03-21/17:58:20		Confusion matrix : 
+[[212   0]
+ [  0 234]]
+2022-03-21/17:58:20		True positive : 
+212
+2022-03-21/17:58:20		False negative : 
+0
+2022-03-21/17:58:20		False positive : 
+0
+2022-03-21/17:58:20		True negative : 
+234
+2022-03-21/17:58:20		Classification report : 
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00       212
+           0       1.00      1.00      1.00       234
+
+    accuracy                           1.00       446
+   macro avg       1.00      1.00      1.00       446
+weighted avg       1.00      1.00      1.00       446
+
+2022-03-21/17:58:52		Model is loaded for predictions
+2022-03-21/17:58:52		Predicted output[0]
+2022-03-21/17:58:52		Congratulations, you are not affected with Diabetes. Have a good diet.!!
